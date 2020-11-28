@@ -1,0 +1,157 @@
+.navigation {
+    font-family: avenir;
+    font-weight:medium;
+    font-size:20px;
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    list-style-type:none ;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    margin-top:-100px;
+
+}
+
+#navBar {
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+
+.logo-image{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    display:inline;
+}
+
+.logohead{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    display:inline-block;
+}
+
+.footerlinks{
+    font-family: avenir;
+    font-weight:medium;
+    font-size:20px;
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    list-style-type:none;
+    display:grid;
+    color:#95512B;
+    grid-area:footerlinks;
+    padding:30px;
+    text-decoration: none;
+}
+
+.footerlinks ul{
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.footerlogo{
+    width: 150px;
+    height: 150px;
+    display:grid;
+}
+
+.footer-logo{
+    width: 300px;
+    display:grid;
+    grid-area:footerlogo;
+    padding:50px;
+}
+
+.footeremail{
+    display:grid;
+    color:#95512B;
+    grid-area:footeremail;
+    padding:50px;
+}
+
+.footer{
+    display:grid;
+    background-color: #F3E7DB;
+    margin-top:100px;
+    grid-template-rows:auto;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "footerlogo footerlinks footeremail icons";
+
+}
+
+.icons{
+    display:grid;
+    grid-area:icons;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:auto;
+    grid-template-areas:
+    "facebook linkedin instagram";
+    margin-top:50px;
+}
+
+#facebook{
+    background-image:url("../images/facebook.png");
+    background-repeat:no-repeat;
+    grid-area:facebook;
+}
+
+#linkedin{
+    background-image:url("../images/linkedin.png");
+    background-repeat:no-repeat;
+    grid-area:linkedin;
+}
+
+#instagram{
+    background-image:url("../images/instagram.png");
+    background-repeat:no-repeat;
+    grid-area:instagram;
+}
+
+h1{
+    font-family: avenir;
+    text-align:left;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:80px;
+    }
+    
+    h2{
+        font-family:avenir;
+        text-align:left;
+        letter-spacing:8.4px;
+        text-transform:uppercase;
+        font-size:40px;
+    }
+
+    p{
+        font-family: helvetica;
+    }
+
+    .button{
+
+        background: #95512b 0% 0% no-repeat padding-box;
+        border: 1px solid #95512b;
+        border-radius:48px; 
+        font-family:avenir;
+        text-align: center;
+        letter-spacing:3px;
+        color:#ffffff;
+        text-transform:uppercase;
+        font-size:20px;
+        font-weight:book;
+        padding:7px 18px;
+     }
+
+     .headerbutton{
+        display:flex;
+        justify-content:flex-end;
+        margin-top:-65px;
+        margin-bottom:100px;
+    }
