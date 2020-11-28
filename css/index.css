@@ -198,3 +198,32 @@ width: 100%;
     grid-area:other-info;
     padding:25px;
 }
+
+#projectlogo{
+    width:100%;
+}
+
+.process{
+    display:grid;
+    margin:10px;
+    margin-bottom:200px;
+    grid-template-columns: auto;
+    grid-template-rows:50% 50%;
+    grid-template-areas: 
+    "process-title"
+    "process-diagram";
+}
+
+.process-title{
+    display: grid;
+    grid-area: process-title;
+    justify-content: center;
+}
+
+.process-diagram{
+    display: grid;
+    grid-area: process-diagram;
+    width:10%;
+    margin-bottom:100px;
+    padding:10px;
+}
