@@ -206,6 +206,7 @@ width: 100%;
 .process{
     display:grid;
     margin:10px;
+    justify-content: center;
     margin-bottom:200px;
     grid-template-columns: auto;
     grid-template-rows:50% 50%;
@@ -226,4 +227,22 @@ width: 100%;
     width:10%;
     margin-bottom:100px;
     padding:10px;
+}
+
+#research{
+    display:flex;
+    justify-content: center;
+}
+
+#comp{
+    display:flex;
+    justify-content: center;
+}
+
+#comp-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    margin-bottom:200px;
 }
