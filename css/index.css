@@ -246,3 +246,94 @@ width: 100%;
     width:70%;
     margin-bottom:200px;
 }
+
+.interview-title{
+    display:flex;
+    justify-content: center;
+    margin:100px;
+}
+
+.interview-info{
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:auto;
+    justify-content: center;
+    grid-template-areas:
+    "interview1 interview2 interview3";
+}
+
+#interview1{
+    width:50%;
+    grid-area:interview1;
+    margin:10px;
+   
+}
+
+#interview2{
+    width: 50%;
+    grid-area:interview2;
+    margin:10px;
+  
+}
+
+#interview3{
+    width: 50%;
+    grid-area:interview3;
+    margin:10px;
+}
+
+#findings-description{
+    padding:70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.interview-findings{
+    display:grid;
+    grid-template-columns:auto;
+    justify-content: space-around;
+    grid-template-rows:auto;
+    grid-template-areas:
+    "icon-1 icon-2 icon-3" 
+    "finding-1 finding-2 finding-3";
+    margin:50px;
+    margin-bottom:200px;
+}
+
+.icon-1{
+    display:grid;
+    grid-area:icon1;
+    margin:10px;
+}
+
+.finding-1-description{
+    display:grid;
+    grid-area:finding-1;
+    margin:10px;
+}
+
+.icon-2{
+    display:grid;
+    grid-area:icon2;
+    margin:10px;
+}
+
+.finding-2-description{
+    display:grid;
+    grid-area:finding-2;
+    margin:10px;
+}
+
+.icon-3{
+    display:grid;
+    grid-area:icon3;
+    margin:10px;
+}
+
+.finding-3-description{
+    display:grid;
+    grid-area:finding-3;
+    margin:10px;
+}
