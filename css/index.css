@@ -337,3 +337,132 @@ width: 100%;
     grid-area:finding-3;
     margin:10px;
 }
+
+#empathy-map{
+    display: flex;
+    justify-content: center;
+}
+
+#empathy-map-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    margin-bottom:10px;
+}
+
+#empathy-map-description{
+    padding:70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#user-persona{
+    display: flex;
+    justify-content: center;
+}
+
+#persona-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    margin-bottom:10px;
+}
+
+#persona-description{
+    padding:70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#definition{
+    display: flex;
+    justify-content: center;
+}
+
+.problem-statement{
+    padding:50px;
+    background-color:#8CD9E3;
+    color:#ffffff;
+    margin:50px;
+}
+
+#feature-prioritization{
+    display: flex;
+    justify-content: center;
+}
+
+.prioritization-image{
+    display:grid;
+    grid-area:image;
+}
+
+.prioritization-text{
+    display:grid;
+    grid-area:text;
+    padding:20px;
+}
+
+.feature-prioritization{
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:50% 50%;
+    justify-content: center;
+    margin:50px;
+    grid-template-areas:
+    "image text"
+}
+
+#prototyping{
+    display: flex;
+    justify-content: center;
+}
+
+#paper-prototype{
+    display: flex;
+    justify-content: center;
+}
+
+.image.container{
+    display:grid;
+    justify-content: center;
+    grid-template-rows:auto;
+    grid-template-columns:auto;
+    grid-template-areas:
+    "paper-1 paper-2"
+    "paper-3 paper-4";
+}
+
+.paper-prototype-1{
+    grid-area:paper-1;
+    margin:10px;
+    margin-left:auto;
+}
+
+.paper-prototype-2{
+    grid-area:paper-2;
+    margin:10px;
+    margin-right:auto;
+}
+
+.paper-prototype-3{
+    grid-area:paper-3;
+    margin:10px;
+    margin-left:auto;
+}
+
+.paper-prototype-4{
+    grid-area:paper-4;
+    margin:10px;
+    margin-right:auto;
+}
+
+#paper-description{
+    padding:60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
