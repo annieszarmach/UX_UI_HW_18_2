@@ -381,6 +381,7 @@ width: 100%;
 #definition{
     display: flex;
     justify-content: center;
+    margin-top:200px;
 }
 
 .problem-statement{
@@ -419,6 +420,7 @@ width: 100%;
 #prototyping{
     display: flex;
     justify-content: center;
+    margin-top:200px;
 }
 
 #paper-prototype{
@@ -465,4 +467,158 @@ width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#testing{
+    display: flex;
+    justify-content: center;
+}
+
+#different-users{
+    display: flex;
+    justify-content: center;
+}
+
+#results{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+    margin-top:100px;
+}
+
+.results{
+    display:grid;
+    grid-template-columns:auto;
+    justify-content: space-around;
+    grid-template-rows:auto;
+    grid-template-areas:
+    "icon4 icon5 icon6" 
+    "description-4 description-5 description-6";
+    margin:50px;
+    margin-bottom:200px;
+}
+
+.icon4{
+    display:grid;
+    grid-area:icon4;
+    margin:10px;
+    justify-content: center;
+}
+
+.description-4{
+    display:grid;
+    grid-area:description-4;
+    margin:10px;
+    justify-content: center;
+}
+
+.icon5{
+    display:grid;
+    grid-area:icon5;
+    margin:10px;
+    justify-content: center;
+}
+
+.description-5{
+    display:grid;
+    grid-area:description-5;
+    margin:10px;
+    justify-content: center;
+}
+
+.icon6{
+    display:grid;
+    grid-area:icon6;
+    margin:10px;
+    justify-content: center;
+}
+
+.description-6{
+    display:grid;
+    grid-area:description-6;
+    margin:10px;
+}
+
+#pain-points{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display:block;
+    margin-left:450px;
+    font-family:helvetica;
+    font-size:15px;
+}
+
+#iterating{
+    display: flex;
+    justify-content: center;
+    margin-top:200px;
+}
+
+#final-image{
+    display:grid;
+    grid-area:image;
+}
+
+.final-text{
+    display:grid;
+    grid-area:text;
+    padding:10px;
+}
+
+.final-area{
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:50% 50%;
+    justify-content: center;
+    margin:50px;
+    grid-template-areas:
+    "image text"
+    "image text"
+    "image button"
+}
+
+#prototype-button{
+    display:grid;
+    grid-area:button;
+    height:50px;
+}
+
+#final-thoughts{
+    display: flex;
+    justify-content: center;
+}
+
+#further-iterations{
+    margin-left:200px;
+    margin-top:100px;
+}
+
+#iterations-text{
+    margin-left:200px;
+    padding:40px;
+}
+
+#analysis{
+    margin-left:200px;
+    margin-top:100px;
+}
+
+#analysis-text{
+    margin-left:200px;
+    padding:40px;
+    margin-right:100px;
+}
+
+#key{
+    margin-left:200px;
+    margin-top:100px;
+}
+
+#key-text{
+    margin-left:200px;
+    padding:40px;
+    margin-right:100px;
 }
