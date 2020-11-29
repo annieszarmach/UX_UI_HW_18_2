@@ -622,3 +622,95 @@ ul{
     padding:40px;
     margin-right:100px;
 }
+
+@media only screen and (max-width:600){
+    .content-area{
+        display:grid;
+        justify-content: center;
+        padding:10px;
+        grid-template-columns:auto;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "title"
+        "problem-solution" 
+        "other-info"
+    }
+
+    .interview-info{
+        display:grid;
+        grid-template-rows:1fr;
+        grid-template-columns:auto;
+        justify-content: center;
+        grid-template-areas:
+        "interview1"
+        "interview2" 
+        "interview3";
+    }
+
+    .interview-findings{
+        display:grid;
+        grid-template-columns:auto;
+        justify-content: space-around;
+        grid-template-rows:1fr;
+        grid-template-areas:
+        "icon-1"
+        "finding-1"
+        "icon-2"
+        "finding-2"
+        "icon-3" 
+        "finding-3";
+        margin:50px;
+        margin-bottom:200px;
+    }
+
+    .feature-prioritization{
+        display:grid;
+        grid-template-rows:auto;
+        grid-template-columns:1fr;
+        justify-content: center;
+        margin:50px;
+        grid-template-areas:
+        "image"
+        "text"
+    }
+
+    .image.container{
+        display:grid;
+        justify-content: center;
+        grid-template-rows:1fr;
+        grid-template-columns:auto;
+        grid-template-areas:
+        "paper-1"
+        "paper-2"
+        "paper-3" 
+        "paper-4";
+    }
+
+    .results{
+        display:grid;
+        grid-template-columns:auto;
+        justify-content: space-around;
+        grid-template-rows:1fr;
+        grid-template-areas:
+        "icon4"
+        "description-4"
+        "icon5"  
+        "description-5" 
+        "icon6"
+        "description-6";
+        margin:50px;
+        margin-bottom:200px;
+    }
+
+    .final-area{
+        display:grid;
+        grid-template-rows:auto;
+        grid-template-columns:1fr;
+        justify-content: center;
+        margin:50px;
+        grid-template-areas:
+        "image"
+        "text"
+        "button"
+    }
+}
